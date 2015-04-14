@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package openqcm;
+package SCUTQCM;
 
 import java.awt.Image;
 import java.awt.Toolkit;
@@ -94,7 +94,7 @@ public class mainGUI extends javax.swing.JFrame implements RawDataListener {
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("openQCM 1.1");
+        setTitle("SCUTQCM 1.7");
         setIconImages(null);
         setMinimumSize(new java.awt.Dimension(720, 500));
         setName("applicationFrame"); // NOI18N
@@ -153,7 +153,7 @@ public class mainGUI extends javax.swing.JFrame implements RawDataListener {
 
         jPanelChart.setBackground(new java.awt.Color(0, 142, 192));
 
-        logoImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/openqcm/openQCM-logo.png"))); // NOI18N
+        logoImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SCUTQCM/SCUTQCM-logo.png"))); // NOI18N
         logoImage.setText("jLabel1");
 
         clearChartBtn.setText("Clear");
@@ -357,7 +357,7 @@ public class mainGUI extends javax.swing.JFrame implements RawDataListener {
 
     // set the application icon image
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
-        java.net.URL url = getClass().getResource("openQCM-icon-30x30.png");
+        java.net.URL url = getClass().getResource("SCUTQCM-icon-30x30.png");
         Toolkit kit = Toolkit.getDefaultToolkit();
         Image img = kit.createImage(url);
         this.setIconImage(img);
